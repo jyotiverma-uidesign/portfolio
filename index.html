@@ -1,0 +1,451 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Jyoti Verma's personal portfolio showcasing web development projects, skills and experience.">
+    <title>Jyoti Verma | Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    
+<div class="scroll-progress" id="scroll-progress"></div>
+<button id="back-to-top" class="back-to-top"
+        aria-label="Back to top" title="Back to top">
+    ↑
+</button>
+
+
+    <header class="header">
+        <nav class="navbar container" aria-label="Main navigation">
+            <a href="#home" class="logo">jyoti<span>.</span></a>
+
+            <button class="menu-toggle" id="menu-toggle"
+                aria-label="Open navigation menu"
+                aria-expanded="false" aria-controls="nav-links">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero -->
+        <section class="hero section-padding" id="home">
+            <div class="container hero-grid">
+                <div class="hero-content reveal">
+                    <p class="eyebrow">
+                        <span class="status-dot"></span>
+                        AVAILABLE FOR OPPORTUNITIES
+                    </p>
+
+                    <h1>Hi, I'm <span>Jyoti Verma.</span></h1>
+
+                    <h2>Web Developer &amp; UI/UX Enthusiast</h2>
+
+                    <p class="hero-description">
+                        I build responsive websites and enjoy creating
+                        clean, intuitive and user-friendly digital experiences.
+                        I love turning ideas into meaningful designs.
+                    </p>
+
+                    <div class="hero-actions">
+                        <a href="#projects" class="btn btn-primary">
+                            View My Work <span aria-hidden="true">↗</span>
+                        </a>
+                        <a href="#contact" class="btn btn-secondary">
+                            Contact Me
+                        </a>
+                    </div>
+
+                    <div class="social-links">
+                        <a href="https://github.com/jyotiverma-uidesign"
+                           target="_blank" rel="noopener noreferrer">
+                            GitHub ↗
+                        </a>
+                        <a href="https://www.linkedin.com/in/jyotiverma7400/"
+                           target="_blank" rel="noopener noreferrer">
+                            LinkedIn ↗
+                        </a>
+                    </div>
+                </div>
+
+                <div class="hero-visual reveal">
+                    <div class="visual-card">
+                        <div class="visual-top">
+                            <span class="mini-dot"></span>
+                            <span class="mini-dot"></span>
+                            <span class="mini-dot"></span>
+                            <span class="visual-label">MY CREATIVE SPACE</span>
+                        </div>
+
+                        <div class="avatar-placeholder" aria-hidden="true">
+                            JV
+                        </div>
+
+                        <p class="visual-name">Jyoti Verma</p>
+                        <p class="visual-role">Design · Develop · Learn</p>
+
+                        <div class="visual-tags">
+                            <span>Web Design</span>
+                            <span>Development</span>
+                            <span>UI/UX</span>
+                        </div>
+
+                        <div class="floating-note note-one">
+                            <span>✳</span> Creative thinking
+                        </div>
+                        <div class="floating-note note-two">
+                            <span>✓</span> Responsive design
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About -->
+        <section class="section-padding section-light" id="about">
+            <div class="container">
+                <div class="section-heading reveal">
+                    <p class="eyebrow">GET TO KNOW ME</p>
+                    <h2>About <span>Me</span></h2>
+                    <p>A little about my background and what I love doing.</p>
+                </div>
+
+                <div class="about-grid">
+                    <div class="about-copy reveal">
+                        <h3>Building digital experiences with purpose.</h3>
+                        <p>
+                            I'm a B.Tech graduate in Artificial Intelligence
+                            and Data Science with experience in web development.
+                            I enjoy learning how design and technology work
+                            together to solve real problems.
+                        </p>
+                        <p>
+                            I'm interested in improving my UI/UX design skills,
+                            understanding user needs and creating interfaces
+                            that are both useful and visually appealing.
+                        </p>
+                        <a href="#contact" class="text-link">
+                            Let's work together ↗
+                        </a>
+                    </div>
+
+                    <div class="about-details reveal">
+                        <div class="detail-card">
+                            <span class="detail-number">01</span>
+                            <div>
+                                <h4>My Approach</h4>
+                                <p>Simple, accessible and user-focused design.</p>
+                            </div>
+                        </div>
+                        <div class="detail-card">
+                            <span class="detail-number">02</span>
+                            <div>
+                                <h4>My Focus</h4>
+                                <p>Web development, responsive UI and UI/UX.</p>
+                            </div>
+                        </div>
+                        <div class="detail-card">
+                            <span class="detail-number">03</span>
+                            <div>
+                                <h4>My Goal</h4>
+                                <p>Build useful products and keep learning.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills -->
+        <section class="section-padding" id="skills">
+            <div class="container">
+                <div class="section-heading reveal">
+                    <p class="eyebrow">WHAT I WORK WITH</p>
+                    <h2>Skills &amp; <span>Tools</span></h2>
+                    <p>Technologies and areas I'm familiar with.</p>
+                </div>
+
+                <div class="skills-grid">
+                    <article class="skill-card reveal">
+                        <span class="skill-icon">01</span>
+                        <h3>Frontend Development</h3>
+                        <p>Building responsive and structured web interfaces.</p>
+                        <div class="tag-list">
+                            <span>HTML</span><span>CSS</span>
+                            <span>JavaScript</span><span>React</span>
+                        </div>
+                    </article>
+
+                    <article class="skill-card reveal">
+                        <span class="skill-icon">02</span>
+                        <h3>UI/UX Fundamentals</h3>
+                        <p>Exploring usability, layout, hierarchy and user flows.</p>
+                        <div class="tag-list">
+                            <span>Layout</span><span>Typography</span>
+                            <span>Usability</span><span>Wireframes</span>
+                        </div>
+                    </article>
+
+                    <article class="skill-card reveal">
+                        <span class="skill-icon">03</span>
+                        <h3>Development Tools</h3>
+                        <p>Tools and technologies used in my web projects.</p>
+                        <div class="tag-list">
+                            <span>GitHub</span><span>Supabase</span>
+                            <span>Responsive UI</span>
+                        </div>
+                    </article>
+                </div>
+                <p class="small-note">
+                    Add or remove skills according to your actual experience.
+                </p>
+            </div>
+        </section>
+
+        <!-- Projects -->
+        <section class="section-padding section-light" id="projects">
+            <div class="container">
+                <div class="section-heading reveal">
+                    <p class="eyebrow">SELECTED WORK</p>
+                    <h2>Featured <span>Projects</span></h2>
+                    <p>A selection of web projects I've worked on.</p>
+                </div>
+
+                <div class="projects-grid">
+                    <article class="project-card reveal">
+                        <div class="project-cover cover-one">
+                            <span class="cover-number">01</span>
+                            <span class="cover-symbol">M.</span>
+                            <span class="cover-caption">WEB EXPERIENCE</span>
+                        </div>
+                        <div class="project-body">
+                            <p class="project-type">WEB DEVELOPMENT</p>
+                            <h3>Miracle World</h3>
+                            <p>A web project focused on a clear and responsive
+                               digital experience.</p>
+                            <div class="tag-list">
+                                <span>React</span><span>Tailwind CSS</span>
+                            </div>
+                            <a class="text-link"
+                               href="https://miracleworldllp.in/"
+                               target="_blank" rel="noopener noreferrer">
+                                Visit Project ↗
+                            </a>
+                        </div>
+                    </article>
+
+                    <article class="project-card reveal">
+                        <div class="project-cover cover-two">
+                            <span class="cover-number">02</span>
+                            <span class="cover-symbol">V.</span>
+                            <span class="cover-caption">SOCIAL IMPACT</span>
+                        </div>
+                        <div class="project-body">
+                            <p class="project-type">WEB DEVELOPMENT</p>
+                            <h3>Vasundhara Sewa</h3>
+                            <p>A website project designed to present information
+                               in an accessible way.</p>
+                            <div class="tag-list">
+                                <span>Web UI</span><span>Responsive Design</span>
+                            </div>
+                            <a class="text-link"
+                               href="https://vasundharasewa.com/"
+                               target="_blank" rel="noopener noreferrer">
+                                Visit Project ↗
+                            </a>
+                        </div>
+                    </article>
+
+                    <article class="project-card reveal">
+                        <div class="project-cover cover-three">
+                            <span class="cover-number">03</span>
+                            <span class="cover-symbol">A.</span>
+                            <span class="cover-caption">DIGITAL PLATFORM</span>
+                        </div>
+                        <div class="project-body">
+                            <p class="project-type">WEB DEVELOPMENT</p>
+                            <h3>AstroTulika</h3>
+                            <p>A web project focused on presenting a digital
+                               service through a web interface.</p>
+                            <div class="tag-list">
+                                <span>Web Development</span><span>UI</span>
+                            </div>
+                            <a class="text-link"
+                               href="https://astrotulika.com/"
+                               target="_blank" rel="noopener noreferrer">
+                                Visit Project ↗
+                            </a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education -->
+        <section class="section-padding" id="education">
+            <div class="container">
+                <div class="section-heading reveal">
+                    <p class="eyebrow">MY BACKGROUND</p>
+                    <h2>Education &amp; <span>Learning</span></h2>
+                </div>
+
+                <div class="timeline reveal">
+                    <div class="timeline-item">
+                        <span class="timeline-dot"></span>
+                        <p class="timeline-label">EDUCATION</p>
+                        <h3>B.Tech in Artificial Intelligence &amp; Data Science</h3>
+                        <p>Truba Institute of Engineering &amp; Information Technology</p>
+                        <p class="muted">CGPA: 7.56</p>
+                    </div>
+                    <div class="timeline-item">
+                        <span class="timeline-dot"></span>
+                        <p class="timeline-label">CONTINUOUS LEARNING</p>
+                        <h3>Web Development &amp; UI/UX</h3>
+                        <p>Practising responsive interfaces and learning
+                           user-centered design principles.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience -->
+        <section class="section-padding section-light" id="experience">
+            <div class="container">
+                <div class="section-heading reveal">
+                    <p class="eyebrow">MY JOURNEY</p>
+                    <h2>Experience &amp; <span>Internships</span></h2>
+                </div>
+
+                <div class="experience-grid">
+                    <article class="experience-card reveal">
+                        <p class="timeline-label">FEB 2026 – MAY 2026</p>
+                        <h3>Full Stack Developer Intern</h3>
+                        <p class="experience-company">Techdigi Software Pvt. Ltd.</p>
+                        <p>Worked on web development projects and gained
+                           practical experience building digital interfaces.</p>
+                    </article>
+
+                    <article class="experience-card reveal">
+                        <p class="timeline-label">INTERNSHIP</p>
+                        <h3>React JS Intern</h3>
+                        <p class="experience-company">Hackveda</p>
+                        <p>Gained experience with React-based frontend
+                           development and practical web tasks.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Achievements -->
+        <section class="section-padding" id="achievements">
+            <div class="container achievement-panel reveal">
+                <div>
+                    <p class="eyebrow">GROWTH &amp; MILESTONES</p>
+                    <h2>Always learning.<br><span>Always improving.</span></h2>
+                    <p>Add your verified certificates, awards and completed
+                       courses here as you earn them.</p>
+                </div>
+                <a href="#contact" class="btn btn-primary">Connect With Me ↗</a>
+            </div>
+        </section>
+
+        <!-- Contact -->
+        <section class="section-padding section-light" id="contact">
+            <div class="container">
+                <div class="section-heading reveal">
+                    <p class="eyebrow">GET IN TOUCH</p>
+                    <h2>Let's create something <span>great.</span></h2>
+                    <p>Have an opportunity or project in mind? Send me a message.</p>
+                </div>
+
+                <div class="contact-grid">
+                    <div class="contact-info reveal">
+                        <h3>Let's talk.</h3>
+                        <p>I'm interested in web development and UI/UX
+                           opportunities where I can learn and contribute.</p>
+
+                        <a href="mailto:jyotiverma@example.com" class="contact-detail">
+                            <span>Email</span>
+                            <strong>Replace with your email ↗</strong>
+                        </a>
+
+                        <a href="https://www.linkedin.com/in/jyotiverma7400/"
+                           target="_blank" rel="noopener noreferrer"
+                           class="contact-detail">
+                            <span>LinkedIn</span>
+                            <strong>Connect with me ↗</strong>
+                        </a>
+
+                        <a href="https://github.com/jyotiverma-uidesign"
+                           target="_blank" rel="noopener noreferrer"
+                           class="contact-detail">
+                            <span>GitHub</span>
+                            <strong>Explore my code ↗</strong>
+                        </a>
+                    </div>
+
+                    <form id="contact-form" class="contact-form reveal" novalidate>
+                        <div class="form-group">
+                            <label for="name">Your name</label>
+                            <input type="text" id="name" name="name"
+                                placeholder="Enter your name" required
+                                minlength="2" autocomplete="name">
+                            <small class="error-message" id="name-error"></small>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email address</label>
+                            <input type="email" id="email" name="email"
+                                placeholder="you@example.com" required
+                                autocomplete="email">
+                            <small class="error-message" id="email-error"></small>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Your message</label>
+                            <textarea id="message" name="message" rows="5"
+                                placeholder="Tell me about your idea..."
+                                required minlength="10"></textarea>
+                            <small class="error-message" id="message-error"></small>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary form-button">
+                            Validate Message <span aria-hidden="true">↗</span>
+                        </button>
+                        <p id="form-status" class="form-status"
+                           role="status" aria-live="polite"></p>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <a href="#home" class="logo">jyoti<span>.</span></a>
+            <p>Designed &amp; built with care by Jyoti Verma.</p>
+            <a href="#home" class="back-top">Back to top ↑</a>
+        </div>
+        <p class="copyright">
+            © <span id="year"></span> Jyoti Verma. All rights reserved.
+        </p>
+    </footer>
+
+</body>
+</html>
